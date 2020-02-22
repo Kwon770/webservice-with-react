@@ -1,10 +1,11 @@
 import React from "react";
-import axios from "axois";
+import axios from "axios";
+import Movie from "./Movie";
 
 class App extends React.Component {
   state = {
     isLoading: true,
-    movies = []
+    movies: []
   };
 
   // 비동기 함수 예약어 async > async funcion() / async ()
@@ -12,7 +13,20 @@ class App extends React.Component {
   // 비동기 수행을 위한 예약어 await. await를 사용하기 위해선 함수 앞에 async 선언
   GetMovies = async () => {
     // Get json by api with axios
-    const moveis = await axios.get("https://yts-proxy.now.sh/list_movies.json");
+    // const moveis = await axios.get("https://yts-proxy.now.sh/list_movies.json");
+
+    // Get json data ( json > data > data > movies)
+    const {
+      data: {
+        data: { movies }
+      }
+    } = await axios.get(
+      "https://yts-proxy.now.sh/list_movies.json?sort_by=rating"
+    );
+
+    // Short cut
+    // this.setState({ movies : movies})
+    this.setState({ movies, isLoading: false });
   };
 
   componentDidMount() {
@@ -20,8 +34,27 @@ class App extends React.Component {
   }
 
   render() {
-    const { isLoading } = this.state;
-    return <div>{isLoading ? "Loading.." : "We are ready"}</div>;
+    // To short cut apporaching state date, use below code
+    // this.state.isLoading
+    const { isLoading, movies } = this.state;
+
+    // Deliever Movie parameter data, Get Movie HTML
+    return (
+      <div>
+        {isLoading
+          ? "Loading.."
+          : movies.map(movie => (
+              <Movie
+                key={movie.id}
+                id={movie.id}
+                year={movie.year}
+                title={movie.title}
+                summary={movie.summary}
+                poster={movie.medium_cover_image}
+              />
+            ))}
+      </div>
+    );
   }
 }
 
