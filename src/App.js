@@ -1,5 +1,4 @@
 import React from "react";
-import PropTypes from "prop-types";
 
 // extends : 상속
 // React는 전달받는 class component의 render를 실행함
@@ -21,6 +20,17 @@ class App extends React.Component {
       count: current.count - 1
     }));
   };
+
+  // SEQUENCE : constructor > render > componentDidMount
+  constructor(props) {
+    super(props);
+  }
+
+  componentDidMount() {} // execute after component load
+
+  componentDidUpdate() {} // execute after component update
+
+  componentWillUnmount() {} // execute after component dead (like change page)
 
   // To get data of class component, Use 'this'
   // To deliever object, Don't write '()'
