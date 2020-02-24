@@ -1,5 +1,31 @@
-body {
+body,
+html {
+  margin: 0;
+  padding: 0;
   background-color: #2a0845;
+  width: 100%;
+  height: 100%;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.loader {
+  width: 100%;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader__text {
+  font-size: 50px;
+  color: white;
 }
 
 .movies {
