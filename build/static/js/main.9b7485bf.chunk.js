@@ -1,2 +1,0 @@
-(this.webpackJsonpwebservice_pratice_react=this.webpackJsonpwebservice_pratice_react||[]).push([[0],{3:function(e,t,n){e.exports=n(8)},8:function(e,t,n){"use strict";n.r(t);var r=n(0),c=n.n(r),a=n(2);var s=function(){return c.a.createElement("span",null,"semething")};n.n(a).a.render(c.a.createElement(s,null),document.getElementById("root"))}},[[3,1,2]]]);
-//# sourceMappingURL=main.9b7485bf.chunk.js.map

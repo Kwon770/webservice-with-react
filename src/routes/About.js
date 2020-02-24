@@ -1,7 +1,7 @@
 import React from "react";
 import { func } from "prop-types";
 
-function About() {
+function About(props) {
   return <span>About this page</span>;
 }
 

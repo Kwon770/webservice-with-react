@@ -1,35 +1,24 @@
-body,
-html {
-  margin: 0;
-  padding: 0;
-  background-color: #2a0845;
-  width: 100%;
+.container {
   height: 100%;
-  /* display: flex;
+  display: flex;
   justify-content: center;
-  align-items: center; */
-}
-
-* {
-  box-sizing: border-box;
 }
 
 .loader {
   width: 100%;
-  height: 1000px;
+  height: 100vh;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.loader__text {
-  font-size: 50px;
-  color: white;
+  font-weight: 300;
 }
 
 .movies {
   display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
   flex-wrap: wrap;
-  justify-content: center;
+  padding: 50px;
+  padding-top: 70px;
+  width: 80%;
 }
