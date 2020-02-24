@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/WebService-with-ReactJs/static/css/main.43af5e35.chunk.css",
-    "main.js": "/WebService-with-ReactJs/static/js/main.be84d74d.chunk.js",
-    "main.js.map": "/WebService-with-ReactJs/static/js/main.be84d74d.chunk.js.map",
-    "runtime-main.js": "/WebService-with-ReactJs/static/js/runtime-main.7dd65e83.js",
-    "runtime-main.js.map": "/WebService-with-ReactJs/static/js/runtime-main.7dd65e83.js.map",
-    "static/js/2.c24f8b69.chunk.js": "/WebService-with-ReactJs/static/js/2.c24f8b69.chunk.js",
-    "static/js/2.c24f8b69.chunk.js.map": "/WebService-with-ReactJs/static/js/2.c24f8b69.chunk.js.map",
-    "index.html": "/WebService-with-ReactJs/index.html",
-    "precache-manifest.5492dd933e6eedfb8f6dec335525e74d.js": "/WebService-with-ReactJs/precache-manifest.5492dd933e6eedfb8f6dec335525e74d.js",
-    "service-worker.js": "/WebService-with-ReactJs/service-worker.js",
-    "static/css/main.43af5e35.chunk.css.map": "/WebService-with-ReactJs/static/css/main.43af5e35.chunk.css.map",
-    "static/js/2.c24f8b69.chunk.js.LICENSE.txt": "/WebService-with-ReactJs/static/js/2.c24f8b69.chunk.js.LICENSE.txt"
+    "main.css": "/webservice-with-react/static/css/main.43af5e35.chunk.css",
+    "main.js": "/webservice-with-react/static/js/main.2f2b7e17.chunk.js",
+    "main.js.map": "/webservice-with-react/static/js/main.2f2b7e17.chunk.js.map",
+    "runtime-main.js": "/webservice-with-react/static/js/runtime-main.532af868.js",
+    "runtime-main.js.map": "/webservice-with-react/static/js/runtime-main.532af868.js.map",
+    "static/js/2.c24f8b69.chunk.js": "/webservice-with-react/static/js/2.c24f8b69.chunk.js",
+    "static/js/2.c24f8b69.chunk.js.map": "/webservice-with-react/static/js/2.c24f8b69.chunk.js.map",
+    "index.html": "/webservice-with-react/index.html",
+    "precache-manifest.98726f6cf27ea09dee1772869e0d7468.js": "/webservice-with-react/precache-manifest.98726f6cf27ea09dee1772869e0d7468.js",
+    "service-worker.js": "/webservice-with-react/service-worker.js",
+    "static/css/main.43af5e35.chunk.css.map": "/webservice-with-react/static/css/main.43af5e35.chunk.css.map",
+    "static/js/2.c24f8b69.chunk.js.LICENSE.txt": "/webservice-with-react/static/js/2.c24f8b69.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.7dd65e83.js",
+    "static/js/runtime-main.532af868.js",
     "static/js/2.c24f8b69.chunk.js",
     "static/css/main.43af5e35.chunk.css",
-    "static/js/main.be84d74d.chunk.js"
+    "static/js/main.2f2b7e17.chunk.js"
   ]
 }
