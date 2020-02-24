@@ -1,3 +1,9 @@
 body {
-  background-color: #2f2f2f;
+  background-color: #2a0845;
+}
+
+.movies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
