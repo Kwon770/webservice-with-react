@@ -16,7 +16,7 @@ function App() {
   // <Navigation> must be inside <HashRouter>
   return (
     <HashRouter>
-      <Navigation></Navigation>
+      <Navigation />
       <Route path="/" exact={true} component={Home} />
       <Route path="/about" component={About} />
       <Route path="/movie/:id" component={Detail} />
